@@ -194,13 +194,13 @@ for i in 1:n_ants
      sethue("brown")
     
 
-    testa = Point(new_vec_orientation_ant.x + center.x, new_vec_orientation_ant.y + center.y )
-    coda = Point(-new_vec_orientation_ant.x + center.x,  -new_vec_orientation_ant.y+ center.y )
+    head = Point(new_vec_orientation_ant.x + center.x, new_vec_orientation_ant.y + center.y )
+    tail = Point(-new_vec_orientation_ant.x + center.x,  -new_vec_orientation_ant.y+ center.y )
 
     distanceVectorRigthAntenna = ants[i].opts[:antennaRigthPoint] - center
     distanceVectorLeftAntenna = ants[i].opts[:antennaLeftPoint] - center
 
-    circle.([testa,coda], radius_ant, :fill)
+    circle.([head,tail], radius_ant, :fill)
     
      ants[i].opts[:new_angolo] = atand((new_vec_orientation_ant.y - 1)/(new_vec_orientation_ant.x ))
 
