@@ -12,6 +12,9 @@ https://github.com/Feedback02/AntPursuitProblem/assets/75331147/04534f31-4355-4d
 This is my contribution in which the ants are able to deal with obstacles. To do that they use an heuristic which is the (white) ant that behaves like a "ghost",
 the other ants try to follow the "ghost" ant.
 
+https://github.com/Feedback02/AntPursuitProblem/assets/75331147/f638e6bb-4fab-4a4f-9278-745119101c78
 
-https://github.com/Feedback02/AntPursuitProblem/assets/75331147/3cb77cd9-466c-4db5-91b5-0a4e5b624b19
+
+
+
 
