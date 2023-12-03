@@ -9,3 +9,9 @@ Instead we can use (lots) easy,cheap agents to find the shortest path.
 
 https://github.com/Feedback02/AntPursuitProblem/assets/75331147/04534f31-4355-4db0-a494-647376042dcd
 
+This is my contribution in which the ants are able to deal with obstacles. To do that they use an heuristic which is the (white) ant that behaves like a "ghost",
+the other ants try to follow the "ghost" ant.
+
+
+https://github.com/Feedback02/AntPursuitProblem/assets/75331147/3cb77cd9-466c-4db5-91b5-0a4e5b624b19
+
